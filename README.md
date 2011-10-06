@@ -2,7 +2,8 @@
 
 Builds Vagrant base box using Veewee and ubuntu-10.04.3-server-i386.
 
-Additionaly packages installed:
+Additional packages installed:
+
 * libaugeas-ruby
 
 ## Tutorial
