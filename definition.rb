@@ -5,7 +5,7 @@ Veewee::Session.declare({
   :iso_file => "ubuntu-10.04.3-server-i386.iso",
   :iso_src => "http://releases.ubuntu.com/10.04.3/ubuntu-10.04.3-server-i386.iso",
   :iso_md5 => "388104f6225ae676ceab0ba4bd7b5784",
-  :iso_download_timeout => "1000",
+  :iso_download_timeout => "10000",
   :boot_wait => "10", :boot_cmd_sequence => [
     '<Esc><Esc><Enter>',
     '/install/vmlinuz noapic preseed/url=http://%IP%:%PORT%/preseed.cfg ',
