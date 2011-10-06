@@ -8,7 +8,7 @@ Additional packages installed:
 
 ## Tutorial
 
-From your veewee directory:
+From your veewee directory (if you have ubuntu-10.04.3-server-i386.iso put it in iso directory):
 
     git clone https://github.com/ernestas/Kohana-Veewee-Template.git definitions/vagrant-ubuntu-10.04.3-server-i386
     vagrant basebox build vagrant-ubuntu-10.04.3-server-i386 -n
