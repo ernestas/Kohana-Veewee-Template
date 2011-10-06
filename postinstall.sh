@@ -31,6 +31,11 @@ make install
 cd ..
 rm -rf ruby-1.8.7-p334*
 
+# Install augeas
+apt-get -y install libaugeas-ruby
+cp /usr/lib/ruby/1.8/augeas.rb /opt/ruby/lib/ruby/1.8/
+cp /usr/lib/ruby/1.8/i486-linux/_augeas.so /opt/ruby/lib/ruby/site_ruby/1.8/i686-linux/
+
 # Install RubyGems 1.7.2
 wget http://production.cf.rubygems.org/rubygems/rubygems-1.7.2.tgz
 tar xzf rubygems-1.7.2.tgz
